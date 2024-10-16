@@ -1,0 +1,167 @@
+schema:Movie
+attributes:title,year,director, run_time, language,genre,producer
+
+1) api for listing all movies
+     
+      url:lochalhost:8000/api/movies/
+
+      method:GET
+
+      body:nill
+
+      status:pending
+
+2) api for creating a new movies
+
+      url:lochalhost:8000/api/movies/
+
+      method:POST
+
+      body:{
+          "title":"movie title",
+          "year":"movie year",
+          "run_time":"movie run_time",
+          "director":"movie director",
+          "language":"movie language",
+          "genre":"movie genre",
+          "producer":"movie producer"
+           }
+
+      status:pending
+
+3) api for updating movies
+
+      url:lochalhost:8000/api/movies/{id}/
+
+      method:PUT
+
+      body:{
+          "title":"movie title",
+          "year":"movie year",
+          "run_time":"movie run_time",
+          "director":"movie director",
+          "language":"movie language",
+          "genre":"movie genre",
+          "producer":"movie producer"
+           }
+
+      status:pending
+
+4) api for deleting  movies
+
+      url:lochalhost:8000/api/movies/{id}/
+
+      method:DELETE
+
+      body:nill
+
+      status:pending
+
+5) api for fetching a specific  movies
+
+      url:lochalhost:8000/api/movies/{id}/
+
+      method:GET
+
+      body:nill
+
+      status:pending
+
+6)api for listing all language
+
+      url:lochalhost:8000/api/movies/language/
+
+      method:GET
+
+      body:nill
+
+
+scheam:actor
+
+attributes:name,age,gender,picture
+
+1)api for listing all actor
+
+     url:lochalhost:8000/api/actors/
+
+     method:GET
+
+     body:nill
+
+     status:pending
+
+2) api for creating new actor
+
+     url:lochalhost:8000/api/actors/
+
+     method:POST
+
+     body:{
+          "name":"actor_name",
+          "age":"actor_age",
+          "gender":"actor_gender",
+          "picture":"actor_picture"
+     }
+
+     status:pending
+
+3) api for updating actors
+
+      url:lochalhost:8000/api/actors/{id}/
+
+      method:PUT
+
+      body:{
+          "name":"actor_name",
+          "age":"actor_age",
+          "gender":"actor_gender",
+          "picture":"actor_picture"
+
+           }
+
+      status:pending
+
+4) api for deleting  actor
+
+      url:lochalhost:8000/api/actors/{id}/
+
+      method:DELETE
+
+      body:nill
+
+      status:pending
+
+
+5) api for fetching a specific  actor
+
+      url:lochalhost:8000/api/actor/{id}/
+
+      method:GET
+
+      body:nill
+
+      status:pending
+
+6)api for listing all language
+
+      url:lochalhost:8000/api/movies/language/
+
+      method:GET
+
+      body:nill
+
+
+
+api call for adding new track
+
+      url:localhost:8000/api/albums/{id}/add_track/
+
+      method:POST
+
+      body:{
+            title:,0;
+            duration:,
+            track_number:,
+            singers:,
+            genre:
+      }
